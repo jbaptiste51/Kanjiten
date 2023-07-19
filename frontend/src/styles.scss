@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@use 'sass/home';
+
+@font-face {
+    font-family: "Oradano";
+    src: local("Oradano");
+    url:("./font/OradanoGSRR.ttf") format("truetype")
+  }
+
+  @font-face {
+    font-family: "Fondamento";
+    src: local("Fondamento-Regular");
+    url:("./font/Fondamento-Regular.ttf") format("truetype")
+  }
+
