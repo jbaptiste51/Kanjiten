@@ -6,21 +6,21 @@ export default function Header() {
     <header className="header">
       <div className="logo">
         <Link to="../" className="homelink">
-          <p>KANJITEN</p>
+          KANJITEN
         </Link>
       </div>
       <div className="link-div">
         <Link to="../kanji" className="hlink">
-          <p>KANJI</p>
+          KANJI
         </Link>
         <Link to="../hiragana" className="hlink">
-          <p>HIRAGANA</p>
+          HIRAGANA
         </Link>
         <Link to="../katakana" className="hlink">
-          <p>KATAKANA</p>
+          KATAKANA
         </Link>
-        <Link to="../signin" className="hlink">
-          <p>CONNEXION</p>
+        <Link to="../signin" className="signinlink">
+          CONNEXION
         </Link>
       </div>
     </header>
