@@ -1,6 +1,13 @@
 @charset "utf-8";
 
 @use "sass/home";
+@use "sass/signin";
+@use "sass/signup";
+@use "sass/about";
+@use "sass/contact";
+@use "sass/kanji";
+@use "sass/hiragana";
+@use "sass/katakana";
 
 @font-face {
   font-family: "Oradano";
