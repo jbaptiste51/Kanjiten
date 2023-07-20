@@ -31,6 +31,7 @@ function App() {
           <Route path="/kanji" element={<Kanji />} />
           <Route path="/hiragana" element={<Hiragana />} />
           <Route path="/katakana" element={<Katakana />} />
+          <Route path="/*" element={<NotFound />} />
         </Routes>
         <Footer />
       </Router>
