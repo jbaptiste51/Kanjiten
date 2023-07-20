@@ -7,7 +7,9 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-direction: row;
+    height: 6rem;
 }
 
 .link-div{
@@ -21,6 +23,14 @@
     text-decoration: none;
     margin-right: 2rem;
     color: black;
+}
+
+.signinlink {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-right: 2rem;
+    color: rgb(134, 22, 52);
 }
 
 .homelink {
