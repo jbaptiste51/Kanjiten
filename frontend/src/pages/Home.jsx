@@ -1,10 +1,10 @@
 import "../assets/font/Fondamento-Regular.ttf";
+import homelogo from "../assets/image/home.jpg";
 
 export default function Home() {
   return (
-    <div>
-      <p className="font">こんいちは</p>
-      <p className="font-fr">Bonjour</p>
+    <div className="home-container">
+      <img src={homelogo} alt="Logo Accueil" className="home-img" />
     </div>
   );
 }
