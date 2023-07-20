@@ -14,6 +14,7 @@ import Kanji from "./pages/Kanji";
 import Katakana from "./pages/Katakana";
 import Hiragana from "./pages/Hiragana";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 import "./App.css";
 
@@ -43,6 +44,7 @@ function App() {
             <Route path="/hiragana" element={<Hiragana />} />
             <Route path="/katakana" element={<Katakana />} />
           </Routes>
+          <Footer />
         </BrowserRouter>
       </div>
     </div>
