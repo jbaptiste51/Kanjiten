@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Fondamento";
+    src: local("Fondamento-Regular");
+    url: ("./font/Fondamento-Regular.ttf") format("truetype");
+  }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.link-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.hlink {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-right: 2rem;
+    color: black;
+}
+
+.homelink {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-left: 2rem;
+    color: rgb(134, 22, 52);
+    font-size: larger;
+    font-family: Fondamento;
+}

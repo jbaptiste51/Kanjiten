@@ -1,3 +1,9 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 .font {
   display: flex;
   justify-content: center;
@@ -10,4 +16,10 @@
   justify-content: center;
   text-align: center;
   font-family: "Fondamento";
+}
+
+.home-img {
+  border: 1rem solid;
+  border-color: rgb(134, 22, 52);
+  border-radius: 12px;
 }
