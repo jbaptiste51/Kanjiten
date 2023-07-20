@@ -27,7 +27,6 @@ function App() {
           backgroundImage: `url(${background})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
-          height: "100%",
           width: "100%",
         }}
       >
