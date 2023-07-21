@@ -10,7 +10,7 @@ export default function Contact() {
               type="email"
               id="email"
               name="email"
-              placeholder="Adresse Mèl"
+              placeholder="Adresse Mail"
               className="emailbox"
             />
           </label>
