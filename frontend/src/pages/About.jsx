@@ -7,10 +7,10 @@ export default function About() {
       </p>
       <br />
       <p className="about-text">
-        Remerciement à mon formateur Benoît Vandanjon pour m'avoir accompagné au
-        cours de cette formation ainsi qu'aux autres formateurs, Anthony Gorsky,
-        Jean-François Morin et Julien Richard pour toutes leurs nombreuses
-        présentations.
+        Remerciements à mon formateur Benoît Vandanjon pour m'avoir accompagné
+        au cours de cette formation ainsi qu'aux autres formateurs, Anthony
+        Gorsky, Jean-François Morin et Julien Richard pour toutes leurs
+        nombreuses présentations.
       </p>
       <br />
       <p className="about-text">

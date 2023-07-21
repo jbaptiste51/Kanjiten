@@ -11,13 +11,13 @@ export default function Header() {
       </div>
       <div className="link-div">
         <Link to="../kanji" className="hlink">
-          KANJI
+          KANJIS
         </Link>
         <Link to="../hiragana" className="hlink">
-          HIRAGANA
+          HIRAGANAS
         </Link>
         <Link to="../katakana" className="hlink">
-          KATAKANA
+          KATAKANAS
         </Link>
         <Link to="../signin" className="signinlink">
           CONNEXION

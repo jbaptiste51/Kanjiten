@@ -75,7 +75,7 @@ export default function Kanji() {
           <div className="filter">
             <input type="text" placeholder="Recherche" className="search" />
             <select className="stroke">
-              <option value="">Tous</option>
+              <option value="">Nombre de traits</option>
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
@@ -94,7 +94,7 @@ export default function Kanji() {
               <option value="16">16</option>
             </select>
             <select className="key">
-              <option value="">Toutes Clés</option>
+              <option value="">Clés</option>
               <option value="un">Un</option>
               <option value="personne">Personne</option>
               <option value="divination">Divination</option>
@@ -133,7 +133,7 @@ export default function Kanji() {
                 <th scope="col">On 1</th>
                 <th scope="col">On 2</th>
                 <th scope="col">Kun 1</th>
-                <th scope="col">Kun2</th>
+                <th scope="col">Kun 2</th>
                 <th scope="col">Traits</th>
                 <th scope="col">Clé</th>
                 <th scope="col">Signification</th>
@@ -218,25 +218,25 @@ export default function Kanji() {
               </tr>
               <tr>
                 <td>勲</td>
-                <td>SEI</td>
-                <td>SHÔ</td>
+                <td>KUN</td>
                 <td />
+                <td>isao</td>
                 <td />
-                <td>14</td>
-                <td>riz</td>
-                <td>Vitalité</td>
-                <td>3</td>
+                <td>15</td>
+                <td>feu</td>
+                <td>Mérite</td>
+                <td>1</td>
               </tr>
               <tr>
                 <td>淑</td>
-                <td>SEI</td>
-                <td>SHÔ</td>
+                <td>SHUKU</td>
                 <td />
+                <td>shito</td>
                 <td />
-                <td>14</td>
-                <td>riz</td>
-                <td>Vitalité</td>
-                <td>3</td>
+                <td>11</td>
+                <td>eau</td>
+                <td>Gracieux</td>
+                <td>1</td>
               </tr>
               {/* {filteredKanjis.length &&
               filteredKanjis.map((kanji) => (

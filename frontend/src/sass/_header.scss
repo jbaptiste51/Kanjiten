@@ -4,6 +4,10 @@
   url: ("./font/Fondamento-Regular.ttf") format("truetype");
 }
 
+.logo {
+  font-size: 37px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -15,6 +19,7 @@
 .link-div {
   display: flex;
   flex-direction: row;
+  font-size: 22px;
 }
 
 .hlink {
