@@ -106,7 +106,7 @@ export default function Login() {
             />
           </div>
           <button type="submit" className="signin-button">
-            Envoyer
+            Connexion
           </button>
         </form>
         <div className="signin-image">
