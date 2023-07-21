@@ -5,7 +5,7 @@ class KanjiManager extends AbstractManager {
     super({ table: "kanji" });
   }
 
-  insert(character, on, ontwo, kun, kuntwo, stroke, key, significate) {
+  insert(character, on, ontwo, kun, kuntwo, stroke, key, significate, jlpt) {
     return this.database.query(
       `INSERT INTO ${this.table} (character,
         on,
@@ -14,8 +14,9 @@ class KanjiManager extends AbstractManager {
         kuntwo,
         stroke,
         key,
-        significate) VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
-      [character, on, ontwo, kun, kuntwo, stroke, key, significate]
+        significate,
+        jlpt) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+      [character, on, ontwo, kun, kuntwo, stroke, key, significate, jlpt]
     );
   }
 }
