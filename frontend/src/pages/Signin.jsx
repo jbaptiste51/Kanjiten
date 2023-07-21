@@ -1,7 +1,9 @@
 import { useContext, useState } from "react";
-import { Link, Navigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import axios from "axios";
 import CurrentUserContext from "../contexts/CurrentsUsers";
+
+import signinimage from "../assets/image/Signin.jpg";
 
 export default function Login() {
   const { currentUser, setCurrentUser } = useContext(CurrentUserContext);
@@ -65,15 +67,12 @@ export default function Login() {
     <>
       {Object.keys(currentUser).length && <Navigate to="/" />}
       <div className="signin">
-        <form className="signin-box" onSubmit={handleLogin} noValidate>
-          <h1>CONNEXION</h1>
+        <form className="signinbox" onSubmit={handleLogin} noValidate>
           <h2>
-            Veuillez saisir tous les champs
             {invalidLogin && <span className="error">{invalidLogin}</span>}
           </h2>
-          <p>
+          <div>
             <label htmlFor="signin-mail">
-              {/* Adresse email */}
               {invalidFields.includes("email") && (
                 <span className="error">(Veuillez saisir une adress mail)</span>
               )}
@@ -86,11 +85,11 @@ export default function Login() {
               placeholder="Adresse Mail"
               required
               onChange={handleMail}
+              className="signinfield"
             />
-          </p>
-          <p>
+          </div>
+          <div>
             <label htmlFor="signin-password">
-              {/* Mot de passe */}
               {invalidFields.includes("password") && (
                 <span className="error">(Veuillez saisir un mot de passe)</span>
               )}
@@ -103,24 +102,16 @@ export default function Login() {
               placeholder="Mot De Passe"
               required
               onChange={handlePassword}
+              className="passwordfield"
             />
-          </p>
-          <h2>
-            <Link
-              to="/login/forgotten-password"
-              className="forgotten-password-link"
-            >
-              Mot de passe oublié&nbsp;?
-            </Link>
-          </h2>
-          <p>
-            <input
-              className="connect-yourself"
-              type="submit"
-              value="Se connecter"
-            />
-          </p>
+          </div>
+          <button type="submit" className="signin-button">
+            Envoyer
+          </button>
         </form>
+        <div className="signin-image">
+          <img src={signinimage} alt="Connexion" className="signin-image" />
+        </div>
       </div>
     </>
   );
