@@ -1,0 +1,97 @@
+.kanji-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.filter {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    .search{
+        margin-right: 2rem;
+        border: 0.2rem solid rgb(134, 22, 52);
+        background-color: burlywood;
+        border-radius: 6px;
+        font-size: large;
+        height: 2rem;
+        width: 9rem;
+        outline: none;
+    }
+    .stroke{
+        margin-right: 1rem;
+        height: 2rem;
+        width: 9rem;
+        border: 0.2rem solid rgb(134, 22, 52);
+        border-radius: 6px;
+    }
+    .key{
+        margin-right: 1rem;
+        height: 2rem;
+        width: 9rem;
+        border: 0.2rem solid rgb(134, 22, 52);
+        border-radius: 6px;
+    }
+    .jlpt{
+        height: 2rem;
+        width: 9rem;
+        border: 0.2rem solid rgb(134, 22, 52);
+        border-radius: 6px;
+    }
+}
+
+.action-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.add-button {
+    margin-right: 3rem;
+    color: white;
+        background-color: rgb(134, 22, 52);
+        border-radius: 6px;
+        font-size: large;
+        height: 3rem;
+        width: 7rem;
+}
+
+.delete-button{
+        color: white;
+            background-color: rgb(134, 22, 52);
+            border-radius: 6px;
+            font-size: large;
+            height: 3rem;
+            width: 7rem;
+}
+
+table {
+    border: 3px solid rgb(134, 22, 52);
+    width: 800px;
+    height: 200px;
+    border-radius: 6px;
+    margin-bottom: 6rem;
+}
+
+th {
+    border-bottom: 3px solid rgb(134, 22, 52);
+    font-size: 22px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+ 
+td {
+    text-align: center;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

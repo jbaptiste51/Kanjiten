@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Fondamento";
+  src: local("Fondamento-Regular");
+  url: ("./font/Fondamento-Regular.ttf") format("truetype");
+}
+
+.logo {
+  font-size: 37px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 6rem;
+}
+
+.link-div {
+  display: flex;
+  flex-direction: row;
+  font-size: 22px;
+}
+
+.hlink {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  margin-right: 2rem;
+  color: black;
+}
+
+.signinlink {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  margin-right: 2rem;
+  color: rgb(134, 22, 52);
+}
+
+.homelink {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  margin-left: 2rem;
+  color: rgb(134, 22, 52);
+  font-size: larger;
+  font-family: Fondamento;
+}

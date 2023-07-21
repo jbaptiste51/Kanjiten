@@ -1,0 +1,27 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+  margin-top: 3rem;
+}
+
+.font {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Oradano";
+}
+
+.font-fr {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Fondamento";
+}
+
+.home-img {
+  border-radius: 12px;
+  margin: auto;
+  height: 70vh;
+}

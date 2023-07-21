@@ -1,0 +1,31 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  min-height: 6rem;
+}
+
+.about-link {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  margin-left: 2rem;
+  color: black;
+  font-size: 22px;
+}
+
+.contact-link {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: row;
+  text-decoration: none;
+  margin-right: 2rem;
+  padding-left: 3rem;
+  color: rgb(134, 22, 52);
+  font-size: 22px;
+}

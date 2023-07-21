@@ -1,0 +1,60 @@
+.contactbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 10rem;
+  .emailbox {
+    margin-bottom: 3rem;
+    border: 0.2rem solid rgb(134, 22, 52);
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 1rem;
+    border-radius: 6px;
+    height: 1.5rem;
+    width: 22rem;
+    outline: none;
+  }
+  .objectbox {
+    border: 0.2rem solid rgb(134, 22, 52);
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 1rem;
+    border-radius: 6px;
+    height: 1.5rem;
+    width: 22rem;
+    outline: none;
+  }
+  .messagebox {
+    margin-top: 3rem;
+    border: 0.2rem solid rgb(134, 22, 52);
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 1rem;
+    border-radius: 6px;
+    width: 27rem;
+    outline: none;
+    resize: none;
+    overflow: auto;
+  }
+  .contact-button {
+    margin-top: 1rem;
+    color: white;
+    background-color: rgb(134, 22, 52);
+    border-radius: 6px;
+    font-size: larger;
+    height: 3rem;
+    width: 6rem;
+  }
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-image {
+  border-radius: 12px;
+  height: 70vh;
+}
