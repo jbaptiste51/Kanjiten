@@ -28,7 +28,7 @@ INSERT INTO kanji (character, on, ontwo, kun, kuntwo, stroke, key, significate, 
 ('編', 'HEN', NULL, 'a', NULL, '15', 'fil', 'Tricot', '2'),
 ('勲', 'KUN', NULL, 'isao', NULL, '15', 'feu', 'Mérite', '1'),
 ('街', 'GAI', 'KAI', 'machi', NULL, '12', 'chemin', 'Quartier', '1'),
-('淑', 'SHUKU', NULL, 'shito', NULL, '11', 'eau', 'Gracieux', '1')
+('淑', 'SHUKU', NULL, 'shito', NULL, '11', 'eau', 'Gracieux', '1');
 
 
 CREATE TABLE hiragana (
@@ -36,7 +36,17 @@ CREATE TABLE hiragana (
   character CHAR(1) NOT NULL,
   read VARCHAR(255) NOT NULL
 ) ENGINE = InnoDB CHARACTER SET utf8 COLLATE utf8_unicode_ci;
-INSERT INTO ('あ','い''う''え''お''か''き''く''け''こ''さ''し''す''せ''そ''た''ち''つ''て''と''な''に''ぬ''ね''の''は''ひ''ふ''へ''ほ''ま''み''む''め''も''や''ゆ''よ''ら''り''る''れ''ろ''わ''を''ん')
+
+INSERT INTO hiragana (character, read) VALUES ('あ', 'A'),('い', 'I'),('う', 'U'),('え', 'E'),('お', 'O'),
+('か', 'KA'),('き', 'KI'),('く', 'KU'),('け', 'KE'),('こ', 'KO'),
+('さ', 'SA'), ('し', 'SHI'), ('す', 'SU'), ('せ', 'SE'), ('そ', 'SO'),
+('た', 'TA'), ('ち', 'CHI'), ('つ', 'TSU'), ('て', 'TE'), ('と', 'TO'),
+('な', 'NA'), ('に', 'NI'), ('ぬ', 'NU'), ('ね', 'NE'), ('の', 'NO'),
+('は', 'HA'), ('ひ', 'HI'), ('ふ', 'FU'), ('へ', 'HE'), ('ほ', 'HO'),
+('ま', 'MA'), ('み', 'MI'), ('む', 'MU'), ('め', 'ME'), ('も', 'MO'),
+('や', 'YA'), ('ゆ', 'YU'), ('よ', 'YO'),
+('ら', 'RA'), ('り', 'RI'), ('る', 'RU'), ('れ', 'RU'), ('ろ', 'RO'),
+('わ', 'WA'), ('を', 'WO'), ('ん', 'N');
 
 CREATE TABLE katakana (
   id INT UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -44,8 +54,16 @@ CREATE TABLE katakana (
   read VARCHAR(255) NOT NULL
 ) ENGINE = InnoDB CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
-INSERT INTO katakana (character, read) VALUES ('ア','A')('イ','I')('ウ','U'),'エ''E','オ',
-'カ','キ','ク','ケ','コ','サ''シ''ス''セ''ソ''タ''チ''ツ''テ''ト''ナ''ニ''ヌ''ネ''ノ''ハ''ヒ''フ''ヘ''ホ''マ''ミ''ム''メ''モ''ヤ''ユ''ヨ''ラ''リ''ル''レ''ロ''ワ''ヲ''ン')
+INSERT INTO katakana (character, read) VALUES ('ア', 'A'),('イ', 'I'),('ウ', 'U'),('エ', 'E'),('オ', 'O'),
+('カ', 'KA'),('キ', 'KI'),('ク', 'KU'),('ケ', 'KE'),('コ', 'KO'),
+('サ', 'SA'), ('シ', 'SHI'), ('ス', 'SU'), ('セ', 'SE'), ('ソ', 'SO'),
+('タ', 'TA'), ('チ', 'CHI'), ('ツ', 'TSU'), ('テ', 'TE'), ('ト', 'TO'),
+('ナ', 'NA'), ('ニ', 'NI'), ('ヌ', 'NU'), ('ネ', 'NE'), ('ノ', 'NO'),
+('ハ', 'HA'), ('ヒ', 'HI'), ('フ', 'FU'), ('ヘ', 'HE'), ('ホ', 'HO'),
+('マ', 'MA'), ('ミ', 'MI'), ('ム', 'MU'), ('メ', 'ME'), ('モ', 'MO'),
+('ヤ', 'YA'), ('ユ', 'YU'), ('ヨ', 'YO'),
+('ラ', 'RA'), ('リ', 'RI'), ('ル', 'RU'), ('レ', 'RU'), ('ロ', 'RO'),
+('ワ', 'WA'), ('ヲ', 'WO'), ('ン', 'N');
 
 CREATE TABLE users (
   id INT UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -69,7 +87,7 @@ INSERT INTO
       'Sensei',
       'Hideo',
       1
-    )
+    );
 
 INSERT INTO
     users (
@@ -84,4 +102,4 @@ INSERT INTO
       'Seito',
       'Kyaku',
       0
-    )
+    );
