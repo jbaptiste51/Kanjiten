@@ -74,7 +74,7 @@ export default function Login() {
           <div>
             <label htmlFor="signin-mail">
               {invalidFields.includes("email") && (
-                <span className="error">(Veuillez saisir une adress mail)</span>
+                <span className="error">Veuillez saisir une adresse mail</span>
               )}
             </label>
             <input
@@ -91,7 +91,7 @@ export default function Login() {
           <div>
             <label htmlFor="signin-password">
               {invalidFields.includes("password") && (
-                <span className="error">(Veuillez saisir un mot de passe)</span>
+                <span className="error">Veuillez saisir un mot de passe</span>
               )}
             </label>
             <input
