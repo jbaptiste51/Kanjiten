@@ -5,9 +5,13 @@ h1{
     margin-top: 3rem;
 }
 
-.hira-table {
+.kana-table {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 12rem;
+    margin-top: 6rem;
+}
+
+td{
+    font-size: 26px;
 }

@@ -2,7 +2,7 @@ export default function Hiragana() {
   return (
     <>
       <div>
-        <h1>HIRAGANA</h1>
+        <h1>HIRAGANAS</h1>
       </div>
       <div className="hira-table">
         <table>

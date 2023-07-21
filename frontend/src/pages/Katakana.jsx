@@ -2,7 +2,7 @@ export default function Katakana() {
   return (
     <>
       <div>
-        <h1>KATAKANA</h1>
+        <h1>KATAKANAS</h1>
       </div>
       <div className="kana-table">
         <table>

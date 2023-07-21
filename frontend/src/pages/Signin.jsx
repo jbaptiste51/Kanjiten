@@ -77,34 +77,34 @@ export default function Login() {
                 <span className="error">Veuillez saisir une adresse mail</span>
               )}
             </label>
-            <input
-              id="signin-mail"
-              name="email"
-              type="email"
-              value={email}
-              placeholder="Adresse Mail"
-              required
-              onChange={handleMail}
-              className="signinfield"
-            />
           </div>
+          <input
+            id="signin-mail"
+            name="email"
+            type="email"
+            value={email}
+            placeholder="Adresse Mail"
+            required
+            onChange={handleMail}
+            className="signinfield"
+          />
           <div>
             <label htmlFor="signin-password">
               {invalidFields.includes("password") && (
                 <span className="error">Veuillez saisir un mot de passe</span>
               )}
             </label>
-            <input
-              id="signin-password"
-              name="password"
-              type="password"
-              value={password}
-              placeholder="Mot De Passe"
-              required
-              onChange={handlePassword}
-              className="passwordfield"
-            />
           </div>
+          <input
+            id="signin-password"
+            name="password"
+            type="password"
+            value={password}
+            placeholder="Mot De Passe"
+            required
+            onChange={handlePassword}
+            className="passwordfield"
+          />
           <button type="submit" className="signin-button">
             Connexion
           </button>
